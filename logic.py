@@ -5,7 +5,7 @@ class Calculadora:
 
     def __init__(self, interfaz):
         self.interfaz = interfaz
-
+        
     def sum(self):
         try:
             num1 = float(self.interfaz.display.get())
