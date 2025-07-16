@@ -1,10 +1,10 @@
 import tkinter as tk
-from logic import Calculadora
+from logic import Interfaz, Calculadora
 
 
 #Instanciar clase Calculadora y metodos para crear la interfaz
 root = tk.Tk()
-interfaz = Calculadora(root)
+interfaz = Interfaz(root)
 interfaz.create_widgets()
 interfaz.create_buttons()
 root.mainloop()
